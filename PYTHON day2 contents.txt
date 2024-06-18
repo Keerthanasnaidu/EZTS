@@ -1,0 +1,237 @@
+                                                          DAY-2 & DAY-3
+
+0.Bitwise Operators
+1.Functions
+2.Recursion
+--------------------------
+3.List
+4.Tuple
+5.Dictionary
+6.Sets
+7.Basic problem solving
+---------------------------
+OOPS
+
+
+Bitwise Operators:
+
+1.|
+2.&
+3.~(one's compliment)
+4.^(Xor)
+5.Left shift
+6.Right shift
+
+MSB-Most significant bit
+
+Homework:
+what is meant by 32 bit and 64 bit?
+
+32-bit:
+Refers to the width of the processor's data bus, which means it can handle 32 bits of data at once.
+Limited to 4 GB of RAM (2^32 addresses).
+Software and operating systems must be designed for 32-bit architecture.
+
+64-bit:
+Refers to the width of the processor's data bus, which means it can handle 64 bits of data at once.
+Can theoretically address up to 18.4 million TB of RAM (2^64 addresses), though practical limits are lower.
+Better performance with larger amounts of memory and more demanding applications.
+Can run both 32-bit and 64-bit software, but 32-bit processors can only run 32-bit software.
+
+what is meant by processor?
+A processor, or Central Processing Unit (CPU), is the brain of the computer. It executes instructions from programs by performing basic arithmetic, logical, control, and input/output operations specified by the instructions.
+
+Difference between quad core and octcore
+
+Quad-Core:
+A processor with four independent cores that can run instructions simultaneously.
+Suitable for multitasking and moderately demanding applications.
+
+Octa-Core:
+A processor with eight independent cores.
+More powerful, allowing for better multitasking and handling more intensive applications like gaming, video editing, and large-scale simulations.
+
+What do you mean by syntax error, indentation error, Name error, type error?
+Types of Errors in Programming
+
+1.Syntax Error:
+Occurs when the code violates the grammatical rules of the programming language.
+Example: print "Hello" in Python 3 should be print("Hello").
+
+2.Indentation Error:
+Specific to languages like Python where indentation is used to define blocks of code.
+Example: A missing or extra space/tab can cause an indentation error.
+
+3.Name Error:
+Occurs when a variable or function name is not recognized.
+Example: Trying to use a variable that hasn’t been defined yet.
+
+4.Type Error:
+Occurs when an operation or function is applied to an object of an inappropriate type.
+Example: Trying to add a string and an integer in Python: "2" + 2.
+what is the difference and similarities between parameters and arguments?
+Parameters vs. Arguments
+Parameters: Variables listed in the function definition.
+Arguments: Values passed to the function when it is called.
+Similarities:
+
+Both are used to pass information to functions.
+Differences:
+
+Parameters are placeholders in the function definition.
+Arguments are actual values provided to the function when it is called.
+
+what are four types of arguments?
+Four Types of Arguments
+
+1.Positional Arguments:
+Arguments that need to be in the correct position/order.
+Example: def add(a, b): return a + b called as add(3, 4).
+
+2.Keyword Arguments:
+Arguments that are passed by explicitly stating the parameter name.
+Example: def add(a, b): return a + b called as add(a=3, b=4).
+
+3.Default Arguments:
+Arguments that assume a default value if a value is not provided.
+Example: def greet(name, msg="Hello"): print(msg, name) can be called as greet("Alice") or greet("Alice", "Hi").
+
+4.Variable-Length Arguments:
+Allows passing an arbitrary number of arguments.
+*args for non-keyword arguments and **kwargs for keyword arguments.
+Example: def func(*args): can be called with any number of arguments: func(1, 2, 3).
+
+-----------------------------------------------------------
+
+Function: it is a reusable piece of code.
+if func returns nothing return none
+advantages:
+   reusability
+   modularization
+   easy to debug
+
+Lists:
+list is mutable
+list is ordered
+call by value:
+call by reference:
+
+len=returns length of list
+sum=sum of list
+append=add an element to list
+
+Tuple:
+tuples are immutable
+tuples are ordered
+
+Sets:
+sets are mutable
+sets are unordered
+sets don't allow duplicates
+pop()=pops the first element
+
+
+Dictionary:
+
+OOPS: Everything is dealed with classes and objects.
+It is an object oriented programming language
+object is a real world entity
+class is a collection/blueprint of objects
+Entity:
+
+there are 4 pillars of oops:
+abstraction:   ex=projector
+encapsulation: ex=vitamin capsule
+polymorphism:  ex=different forms of a person
+it can be achieved in 3 types
+Method overloading: overloading the method behind its capacity. It can be achieved in variable length argument.
+method overriding:
+operator overloading:
+inheritance: ex=
+
+Method:
+function inside the class is called as method
+
+runtime polymorphism
+compile time polymorphism
+
+access modifiers/specifiers: modifying/specifying the access for variables etc.
+public
+private
+protected
+
+By default everything in python is public for the security purpose we use protected.
+
+Local(class) variable: variable which can be accessed within the function
+Global(instance) variable: 
+
+In Python by default method overloading is not possible. We are achieving it by the variable length argument. It is dynamic(you give value through keyboard)
+
+method overriding:  example:-3 ppl riding the bike
+existing information
+
+In java and python we can deal about complex numbers due to method overloading.
+
+Inheritance:
+single: one parent class one child class
+multiple(many):one child class derived from many parent classes
+multilevel: one parent class many child classes
+hierarchal
+hybrid 
+
+class operations=s:
+self that holds the address of the class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

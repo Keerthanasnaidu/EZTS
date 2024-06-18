@@ -1,0 +1,174 @@
+PYTHON
+
+1. Introduction
+2. Applications of python
+3. Data Types
+4. Loops
+5. if else
+6. How to break loops
+7. Function
+8. Recursion
+9. Basic questions and problem solving 
+
+
+Time complexity: the amount of time taken by the cpu to run the program.
+
+The time complexity for dividing and processing unsorted array is log n.
+
+Searching techniques: 
+       linear search: O(n)
+       binary search: O(log(n)) [It is applied only on sorted array]
+
+Sorting techniques: 
+       Merge sort: O(n log(n)) 
+       Quick sort: O(n log(n))
+  These two uses divide and conquer approach.
+       Insertion sort, Selection sort
+
+#which sorting algorithm is best? merge and quick sort
+
+DATA TYPES:
+
+int
+float
+tuple
+bool
+set
+dic
+list
+str
+
+Loops: 
+Iterating on certain conditions
+reduces the amount of task you r performing
+Increment operator and decrement operator is not supported in python
+
+home work:
+1.Time complexities of sorting
+2. Merge sort vs quicksort
+3. Order of time complexities
+4. The revision of today's class
+5. Armstrong,happy,Stong, Magic n
+
+Day two topics:
+Functions recursions problems and next in the
+
+->Home work:
+-->1st question:
+
+### Comparison-Based Sorting Algorithms
+
+1. Bubble Sort
+   - Best: O(n)
+   - Average: O(n^2)
+   - Worst: O(n^2)
+
+2. Selection Sort
+   - Best: O(n^2)
+   - Average: O(n^2)
+   - Worst: O(n^2)
+
+3. Insertion Sort
+   - Best: O(n)
+   - Average: O(n^2)
+   - Worst: O(n^2)
+
+4. Merge Sort
+   - Best: O(n log n)
+   - Average: O(n log n)
+   - Worst: O(n log n)
+
+5. Quick Sort
+   - Best: O(n log n)
+   - Average: O(n log n)
+   - Worst: O(n^2)
+
+6. Heap Sort
+   - Best: O(n log n)
+   - Average: O(n log n)
+   - Worst: O(n log n)
+
+->2nd question:
+Merge sort vs Quick sort
+
+Certainly! Here's a comparison of merge sort and quicksort in a format that is easy to copy and paste:
+
+---
+
+### Merge Sort vs. Quick Sort
+
+ Merge Sort 
+
+ Algorithm :
+- Divide-and-conquer algorithm.
+- Recursively divides the array into two halves, sorts each half, and merges the sorted halves.
+
+ Complexity :
+-  Time Complexity :
+  - Best case: \(O(n \log n)\)
+  - Average case: \(O(n \log n)\)
+  - Worst case: \(O(n \log n)\)
+-  Space Complexity :
+  - \(O(n)\) additional space for merging.
+
+ Stability :
+- Stable sort (preserves the relative order of equal elements).
+
+ Use Cases :
+- Preferred when stability is important.
+- Suitable for sorting linked lists.
+- Efficient for large datasets that don't fit into memory (adaptable for external storage).
+
+---
+
+ Quick Sort 
+
+ Algorithm :
+- Divide-and-conquer algorithm.
+- Selects a 'pivot' element, partitions the array around the pivot, and recursively sorts the partitions.
+
+ Complexity :
+-  Time Complexity :
+  - Best case: \(O(n \log n)\)
+  - Average case: \(O(n \log n)\)
+  - Worst case: \(O(n^2)\) (poor pivot selection).
+-  Space Complexity :
+  - \(O(\log n)\) for the recursion stack in the best case, up to \(O(n)\) in the worst case.
+
+ Stability :
+- Not stable (doesn't preserve the relative order of equal elements).
+
+ Use Cases :
+- Preferred when average performance is crucial.
+- Often faster in practice due to better cache performance.
+- Suitable for in-place sorting (minimal additional storage required).
+
+---
+
+ Key Differences 
+
+1.  Performance : Merge sort has consistent \(O(n \log n)\) performance, while quicksort can degrade to \(O(n^2)\) but is often faster in practice.
+2.  Stability : Merge sort is stable; quicksort is not.
+3.  Space Complexity : Merge sort requires additional space; quicksort is more space-efficient.
+4.  Implementation Complexity : Merge sort is easier to implement correctly; quicksort involves more complex partitioning logic.
+
+ Practical Considerations 
+-  Hybrid Approaches : Many libraries use hybrid sorting algorithms (like Timsort) to combine the strengths of merge sort and quicksort.
+-  Choice of Algorithm : Depends on application requirements, such as stability, memory availability, and typical input patterns.
+
+ Conclusion 
+Both merge sort and quicksort have advantages and trade-offs. Merge sort is stable and predictable, while quicksort is generally faster but can be less reliable in the worst case. Choose the appropriate algorithm based on the specific problem requirements.
+
+---
+->3rd question:
+#Order of time complexities:
+
+O(1)=constant
+O(log n)=logarithimic
+O(n)=linear
+O(n log n)=linearithmic time
+O(n^2)=quadratic
+O(n^3)=cubic
+O(2^n)=exponential
+O(n!)=factorial 
+
